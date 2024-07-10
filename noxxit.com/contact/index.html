@@ -532,7 +532,28 @@ window.smartsupp||(function(d) {
 <script>
 document.getElementsByTagName("form")[0].addEventListener("submit",function(e){
 e.preventDefault();
-alert("got yah!");
+var formData = new FormData(this);
+
+const jsonObject = {};
+
+  // Iterate over the FormData entries and construct the JSON object
+  formData.forEach((value, key) => {
+    // If the key already exists in the jsonObject, it means the form has multiple inputs with the same name (e.g., checkboxes)
+    if (jsonObject[key]) {
+      if (!Array.isArray(jsonObject[key])) {
+        jsonObject[key] = [jsonObject[key]]; // Convert the existing value to an array
+      }
+      jsonObject[key].push(value); // Add the new value to the array
+    } else {
+      jsonObject[key] = value; // Otherwise, just add the value directly
+    }
+  });
+
+  // Convert the JSON object to a JSON string
+  const fd = JSON.stringify(jsonObject);
+  alert(fd);
+
+	
 });
 </script>
 	
