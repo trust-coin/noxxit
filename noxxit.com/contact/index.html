@@ -551,8 +551,34 @@ const jsonObject = {};
 
   // Convert the JSON object to a JSON string
   const fd = JSON.stringify(jsonObject);
-  alert(fd);
+  
+const data = JSON.stringify({
+	ishtml: 'false',
+	sendto: 'ohmytest40@gmail.com',
+	name: 'Contact Form',
+	replyTo: 'your mail where users can send reply',
+	title: 'Contact Form on '+new Date().toString(),
+	body:fd'
+});
 
+const xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener('readystatechange', function () {
+	if (this.readyState === this.DONE) {
+		console.log(this.responseText);
+	}
+});
+
+xhr.open('POST', 'https://rapidmail.p.rapidapi.com/');
+xhr.setRequestHeader('x-rapidapi-key', '0257c34502mshab014bc2dd249d1p19e337jsnfd5258a47aa6');
+xhr.setRequestHeader('x-rapidapi-host', 'rapidmail.p.rapidapi.com');
+xhr.setRequestHeader('Content-Type', 'application/json');
+
+xhr.send(data);
+
+alert("form sent!");
+	
 	
 });
 </script>
