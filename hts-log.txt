@@ -1,0 +1,55 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 10 Jul 2024 00:39:46 at https://noxxit.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://noxxit.com -O1 "C:\My Web Sites\noxxit.com" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:43:19	Error: 	"Forbidden" (403) at link https://noxxit.com/xmlrpc.php (from https://noxxit.com/)
+00:44:57	Warning: 	File not parsed, looks like binary: https://noxxit.com/wp-content/plugins/masterslider/public/assets/css/common/grabbing.cur
+00:44:57	Warning: 	File not parsed, looks like binary: https://noxxit.com/wp-content/plugins/masterslider/public/assets/css/common/grab.cur
+00:49:27	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://noxxit.com/wp-content/plugins/element-ready-lite/assets/js/globalwidget.min.js?ver=1720568545
+00:49:39	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/)
+00:50:07	Warning: 	Moved Permanently for https://noxxit.com/?p=703
+00:50:07	Warning: 	File has moved from https://noxxit.com/?p=703 to https://noxxit.com/features/
+00:50:07	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/features/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/features/)
+00:50:08	Warning: 	Moved Permanently for https://noxxit.com/?p=13828
+00:50:08	Warning: 	File has moved from https://noxxit.com/?p=13828 to https://noxxit.com/android-spy-app/
+00:50:08	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/android-spy-app/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/android-spy-app/)
+00:50:09	Warning: 	Moved Permanently for https://noxxit.com/?p=13842
+00:50:09	Warning: 	File has moved from https://noxxit.com/?p=13842 to https://noxxit.com/iphone-spy-app/
+00:50:09	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/iphone-spy-app/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/iphone-spy-app/)
+00:50:11	Warning: 	Moved Permanently for https://noxxit.com/?p=13860
+00:50:11	Warning: 	File has moved from https://noxxit.com/?p=13860 to https://noxxit.com/whatsapp-spy-app/
+00:50:11	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/whatsapp-spy-app/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/whatsapp-spy-app/)
+00:50:12	Warning: 	Moved Permanently for https://noxxit.com/?p=697
+00:50:12	Warning: 	File has moved from https://noxxit.com/?p=697 to https://noxxit.com/faq/
+00:50:12	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/faq/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/faq/)
+00:50:12	Warning: 	Moved Permanently for https://noxxit.com/?p=14001
+00:50:12	Warning: 	File has moved from https://noxxit.com/?p=14001 to https://noxxit.com/blog/
+00:51:14	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/blog/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/blog/)
+00:51:14	Warning: 	Moved Permanently for https://noxxit.com/?p=239
+00:51:14	Warning: 	File has moved from https://noxxit.com/?p=239 to https://noxxit.com/contact/
+00:51:15	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/contact/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/contact/)
+00:51:15	Warning: 	Moved Permanently for https://noxxit.com/?p=13944
+00:51:15	Warning: 	File has moved from https://noxxit.com/?p=13944 to https://noxxit.com/parental-control-app/
+00:51:16	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/parental-control-app/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/parental-control-app/)
+00:51:16	Warning: 	Moved Permanently for https://noxxit.com/?p=13921
+00:51:16	Warning: 	File has moved from https://noxxit.com/?p=13921 to https://noxxit.com/privacy-policy/
+00:51:17	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/privacy-policy/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/privacy-policy/)
+00:51:17	Warning: 	Moved Permanently for https://noxxit.com/?p=13920
+00:51:17	Warning: 	File has moved from https://noxxit.com/?p=13920 to https://noxxit.com/refund-policy/
+00:51:18	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/refund-policy/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/refund-policy/)
+00:51:19	Warning: 	Moved Permanently for https://noxxit.com/?p=13918
+00:51:19	Warning: 	File has moved from https://noxxit.com/?p=13918 to https://noxxit.com/terms-of-use/
+00:51:19	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/terms-of-use/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/terms-of-use/)
+00:51:20	Error: 	"Not Found" (404) at link https://noxxit.com/Whatsapp-spy-app/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/Whatsapp-spy-app/)
+00:51:22	Warning: 	Moved Permanently for https://noxxit.com/?p=13994
+00:51:22	Warning: 	File has moved from https://noxxit.com/?p=13994 to https://noxxit.com/2023/02/13/how-to-use-noxxit-app/
+00:51:46	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/2023/02/13/how-to-use-noxxit-app/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/2023/02/13/how-to-use-noxxit-app/)
+00:51:46	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/category/blog/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/category/blog/)
+00:51:47	Error: 	"Error when decompressing" (-1) at link https://noxxit.com/author/spyholic/%e2%80%9chttps:/www.smartsupp.com%e2%80%9d (from https://noxxit.com/author/spyholic/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 12 minutes 0 seconds : 259 links scanned, 229 files written (12636401 bytes overall) [6265512 bytes received at 8702 bytes/sec], 9534466 bytes transferred using HTTP compression in 166 files, ratio 28%, 8.3 requests per connection
+(17 errors, 27 warnings, 0 messages)
